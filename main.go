@@ -185,8 +185,8 @@ func main() {
 	}
 
 	app.Authors = []any{
-		"xplshn <anto@xplshn.com.ar>",
 		&mail.Address{Name: "xplshn", Address: "anto@xplshn.com.ar"},
+		&mail.Address{Name: "rsc", Address: "rsc@swtch.com"},
 	}
 
 	if err := app.Run(context.Background(), os.Args); err != nil {
